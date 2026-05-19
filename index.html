@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Military Aircraft Encyclopedia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Indian Military Aircraft Facts </h1>
+        <h3> - By Miss Gangotri Mohanty</h3>
+        <p>Explore elite fighter planes and military rotorcraft</p>
+        <a href="quiz.html" style="color: dodgerblue; text-decoration: none; font-weight: bold;">🎯 Play Fighter Jet Quiz Game</a>
+        
+        <div class="filter-container">
+            <input type="text" id="searchBar" placeholder="Search by name, role, or country...">
+            <div class="filter-buttons">
+                <button class="btn active" data-filter="all">All Aircraft</button>
+                <button class="btn" data-filter="jet">Fighter Jets</button>
+                <button class="btn" data-filter="helicopter">Helicopters</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="grid-container" id="aircraftGrid">
+        <!-- JavaScript will dynamically inject cards here -->
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

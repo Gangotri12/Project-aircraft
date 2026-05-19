@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Gun Aviation Quiz</title>
+    <link rel="stylesheet" href="quiz-style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <!-- Start Screen -->
+        <div id="start-screen" class="screen active">
+            <h1>Aviation Quiz Challenge</h1>
+            <p>Test your knowledge on fighter jet generations, origins, specs, and configurations.</p>
+            <button id="start-btn" class="main-btn">Takeoff (Start Quiz)</button>
+        </div>
+
+        <!-- Active Game Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <div class="timer-box">Time Left: <span id="timer">15</span>s</div>
+                <div class="score-box">Score: <span id="score">0</span></div>
+            </div>
+            
+            <div class="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+
+            <div class="question-box">
+                <h2 id="question-text">Loading question...</h2>
+                <div id="image-container" class="q-image-box">
+                    <!-- Dynamic question images loaded here -->
+                </div>
+            </div>
+
+            <div id="options-container" class="options-grid">
+                <!-- Buttons injected dynamically -->
+            </div>
+        </div>
+
+        <!-- Final Results Screen -->
+        <div id="result-screen" class="screen">
+            <h2>Mission Complete!</h2>
+            <div class="final-score-display">
+                <p>Your Final Score</p>
+                <h1 id="final-score">0 / 5</h1>
+            </div>
+            <p id="performance-feedback">Analyzing flight performance...</p>
+            <button id="restart-btn" class="main-btn">Fly Again</button>
+        </div>
+    </div>
+     <script src="quiz-script.js"></script>
+</body>
+</html>

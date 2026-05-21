@@ -8,4 +8,4 @@
 <img width="790" height="547" alt="image" src="https://github.com/user-attachments/assets/ee2f01c2-55af-4785-a770-92f44e87471e" />
 
 
-https://gangotri12.github.io/Project-aircraft/
+Live : https://gangotri12.github.io/Project-aircraft/
